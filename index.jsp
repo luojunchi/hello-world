@@ -21,6 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+    <p>这是一个表单</p>
     <form action="addAction" method="post">
     	<input type="text" name="one"></input>
     	<input type="text" name="two"></input>
